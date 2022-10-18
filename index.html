@@ -1,27 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio Web</title>
-</head>
-<body>
-  <a href="#sobre-mim">Sobre mim</a>
-  <a href="#pagina">Página que eu gosto</a>
-  <h1 class="meuNome">Tryber</h1>
-  <img src="sua-foto.jpeg" alt="Tryber sorrindo com camiseta da Trybe" id="foto">
-  <p class="descricao">Lorem ipsum <strong><em>dolor sit amet</em></strong>, consectetur adipiscing elit. Suspendisse convallis id ligula tempor consequat. Nulla urna risus, luctus quis egestas ut, elementum ac lacus. Nunc scelerisque purus at lacus mollis, ut vestibulum purus fermentum. In ac efficitur augue. Fusce elementum rhoncus tellus, interdum rhoncus tellus aliquam vel.</p>
-  <p class="resido"><strong>Cidade - Estado</strong></p>
-  <h2>Lista de habilidades</h2>
-  <ul>
-    <li class="javascript">Javascript</li>
-    <li class="sql">SQL</li>
-    <li class="react">React</li>
-    <li class="bootstrap">Bootstrap</li>
-    <li class="metoAgil">Metodologias ágeis</li>
-  </ul>
-  <a href="#minha-foto">Minha foto</a>
-  <a href="https://blog.betrybe.com/carreira/frontend/" target="_blank">Artigo legal</a>
-</body>
-</html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Web</title>
+    <link rel="stylesheet" href="/styles/style.css">
+  </head>
+  <body>
+    
+    
+    <div id="menu-bars" class="fas fa-bars"></div>
+        
+    
+    <header>
+    
+        <a href="#" class="logo"> <span>Daniel</span> Ventura</a>
+    
+        <nav class="navbar">
+            <a href="#home">Início</a>
+            <a href="#about">Quem Sou Eu</a>
+            <a href="https://www.wowhead.com/pt" target="_blank">Blog - WoWHead</a>
+        </nav>
+    
+    
+    </header>
+    
+    
+    <section class="home" id="home">
+    
+        <div class="content">
+            <span class="hi"> Olá! </span>
+            <h3> Eu sou <span> Daniel Ventura </span> </h3>
+            <p class="info"> Estudante da Trybe</p>
+            <p class="text"> Estudante da turma 28-b, conheça mais apertando no botão abaixo </p>
+            <a href="#about" class="btn">Sobre</a>
+        </div>
+        <div id="box"></div>
+        <div class="image">
+            <img src="imagens/fotoperfil2.png" alt="">
+        </div>
+    
+    </section>
+    
+    <section class="about" id="about">
+    
+    <h1 class="heading"> sobre <span></span> </h1>
+    
+    <div class="row-1">
+    
+        <div class="image">
+            <a href="imagens/fotoperfil2.png" target="_blank">  
+            <img src="imagens/fotoperfil2.png" alt="">
+            </a>
+        </div>
+    
+        <div class="content">
+            <h3> Daniel A. Ventura </h3>
+            <p>aficcionado por tecnologia, começo uma nova etapa da minha vida sendo estudante da Trybe na turma 28-b</p>
+            <div class="box-container">
+                <div class="box">
+                    <p> <span> Idade : </span> 24 </p>
+                    <p> <span> Idiomas : </span> Português, Inglês e Alemão </p>
+                </div>
+                <div class="box">
+                    <p> <span> email : </span> venturdan@outlook.com.br </p>
+                    <p> <span> Localização : </span>Campina Grande, Paraíba</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    <h1 class="heading"> <span> Algumas </span> habilidades </h1>
+    
+    <div class="row-2">
+    
+        <div class="skills">
+            <div class="progress">
+                <h3> web design </h3>
+                <div class="bar"> <span></span> </div>
+            </div>
+            <div class="progress">
+                <h3> JavaScript </h3>
+                <div class="bar"> <span></span> </div>
+            </div>
+            <div class="progress">
+                <h3> Python</h3>
+                <div class="bar"> <span></span> </div>
+            </div>
+            <div class="progress">
+                <h3> Node.js </h3>
+                <div class="bar"> <span></span> </div>
+            </div>
+        </div>
+    
+    </body>
+    </html>
